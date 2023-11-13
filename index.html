@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="script.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muneer - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <header id="top">
+        <nav class="headerNav">
+            <div class="left"><span>M</span>uneer's <span>P</span>ortfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#certifications">Certificattions</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection reveal" id="home">
+            <div class="leftSection">
+                Hi, My name is <span class="yellow">Muneer</span>
+                <div>and I am a passionate</div><span class="yellow" id="element1"></span>
+                <div class="wrapper">
+                    <button class="btn btn1" href="/Muneer.pdf">
+                        <a style="text-decoration: none; color: inherit;" href="/Portfolio/Muneer.pdf" target="_blank">
+                            <p>Download CV</p>
+                        </a>
+                    </button>
+                    <button class="btn btn2">
+                        <a style="text-decoration: none; color: inherit;" href="#contact">
+                            <p>Contact Me</p>
+                        </a>
+                    </button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="muneerimg.png" alt="">
+            </div>
+        </section>
+        <hr class="reveal">
+        <section class="secondSection reveal" id="about">
+            <div class="aboutdiv">
+                <h1>About</h1>
+                <img src="about.png" alt="">
+            </div>
+            <div class="aboutSection">
+                <span id="element2"></span>
+            </div>
+        </section>
+        <hr class="reveal">
+        <section class="thirdSection reveal" id="skills">
+            <div class="skillsdiv">
+                <h1>Skills</h1>
+                <img src="skills.png" alt="">
+            </div>
+            <div class="skillsContainer">
+                <div class="python-progress skill-progress">
+                    <progress value="70" min="0" max="100" style="visibility:hidden;width:0;">70</progress>
+                    <img src="python.png" alt="">Python
+                </div>
+                <div class="cpp-progress skill-progress">
+                    <progress value="65" min="0" max="100" style="visibility:hidden;width:0;"></progress>
+                    <img src="c-.png" alt="">C++
+                </div>
+                <div class="html-progress skill-progress">
+                    <progress value="80" min="0" max="100" style="visibility:hidden;width:0;"></progress>
+                    <img src="html.png" alt="">HTML
+                </div>
+                <div class="css-progress skill-progress">
+                    <progress value="70" min="0" max="100" style="visibility:hidden;width:0;"></progress>
+                    <img src="css-3.png" alt="">CSS
+                </div>
+                <div class="sql-progress skill-progress">
+                    <progress value="75" min="0" max="100" style="visibility:hidden;width:0;"></progress>
+                    <img src="sql-server.png" alt="">SQL
+                </div>
+                <div class="dv-progress skill-progress">
+                    <progress value="80" min="0" max="100" style="visibility:hidden;width:0;"></progress>
+                    <img src="web-analytics.png" alt="">Data Visualization
+                </div>
+                <div class="da-progress skill-progress">
+                    <progress value="70" min="0" max="100" style="visibility:hidden;width:0;"></progress>
+                    <img src="exploration.png" alt="">Data Analysis
+                </div>
+                <div class="ms-progress skill-progress">
+                    <progress value="65" min="0" max="100" style="visibility:hidden;width:0;"></progress>
+                    <img src="office.png" alt="">MS Office
+                </div>
+            </div>
+        </section>
+        <hr class="reveal">
+        <section class="fourthSection reveal" id="projects">
+            <div class="projectDiv">
+                <h1>Projects</h1>
+                <img src="verified.png" alt="">
+            </div>
+            <div class="cricket-project proj">
+                <div class="project-image">
+                    <img src="cricketApp.png" alt="">
+                    <div class="overlay">
+                        <button>
+                            <img src="share.png" alt=""> <a target="_blank"
+                                style="text-decoration:none ; color: inherit;"
+                                href="https://github.com/MuneerHussain-Pydev/Cricket-Scoring-Application">Visit
+                                Project</a>
+                        </button>
+                    </div>
+                </div>
+                <div class="project-description">
+                    <h2>Cricket Scoring Application</h2>
+                    <p>In my first university semester, I crafted a dynamic GUI cricket scoring app with Python and
+                        customTkinter. Beyond just calculating scores, it showcases real-time updates on a dynamic
+                        scoreboard. The standout feature is the integration of SQLite3 for data storage, enabling users
+                        to maintain detailed match records for performance analysis. This project underlines my
+                        proficiency in combining GUI development, real-time updates, and database integration, making it
+                        a standout piece in my portfolio.</p>
+                </div>
+            </div>
+            <div class="sms-project proj">
+                <div class="project-description">
+                    <h2 style="text-wrap: nowrap;">School Management System</h2>
+                    <p>In my second semester, I crafted a console-based School Management System in C++. This system,
+                        featuring an admin interface, efficiently manages student and teacher data using the SQLite3
+                        library for database functionality. Admins can seamlessly handle records, highlighting my
+                        adeptness in C++ programming and database integration. This console-based application reflects
+                        my capability in providing organized solutions for complex tasks, making it a notable inclusion
+                        in my portfolio.</p>
+                </div>
+                <div class="project-image">
+                    <img src="SmsApp.png" alt="">
+                    <div class="overlay">
+                        <button>
+                            <img src="share.png" alt=""><a target="_blank"
+                                style="text-decoration:none ; color: inherit;"
+                                href="https://github.com/ErajT/School_managment_system">Visit Project</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="recipe-project proj">
+                <div class="project-image">
+                    <img src="recipeApp.png" alt="">
+                    <div class="overlay">
+                        <button>
+                            <img src="share.png" alt=""> <a target="_blank"
+                                style="text-decoration:none ; color: inherit;"
+                                href="https://github.com/MuneerHussain-Pydev/RecipeRescuer">Visit Project</a>
+                        </button>
+                    </div>
+                </div>
+                <div class="project-description">
+                    <h2>Recipe Rescuer</h2>
+                    <p>In a Python project, I designed a console-based Recipe Rescuer application. This dynamic tool
+                        suggests recipes based on user-inputted ingredients and provides additional details such as
+                        missing ingredients, cuisine type, and calorie information. The program showcases my proficiency
+                        in Python for crafting practical, data-driven solutions, offering users a streamlined and
+                        informative experience.</p>
+                </div>
+            </div>
+        </section>
+        <hr class="reveal" style="margin-top: 65%;">
+        <section class="fifthSection reveal" id="certifications">
+            <div class="certifications-title">
+                <h1>Certifications</h1>
+                <img src="patent.png" alt="">
+            </div>
+            <div class="certificate-list">
+                <div class="certificate-1 certs">
+                    <div class="certificate-image">
+                        <img src="Databases.png" alt="">
+                        <div class="certificate-overlay">
+                            <button><img src="share.png" alt=""><a
+                                    href="https://coursera.org/share/fbbcc96e2705036579a12afaa44a52f1" target="_blank"
+                                    style="text-decoration: none; color: inherit;">Show</button></a>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="certificate-desc">
+                        <h2>Databases and SQL for Data Science with Python</h2>
+                    </div>
+                </div>
+                <hr class="sub-line">
+                <div class="certificate-2 certs">
+                    <div class="certificate-image">
+                        <img src="DataAnalysis.png" alt="">
+                        <div class="certificate-overlay">
+                            <button><img src="share.png" alt=""><a
+                                    href="https://coursera.org/share/f6a47088c930e5a7a7c74a306d3c930f"
+                                    style="text-decoration: none; color: inherit;">Show</a></button>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="certificate-desc">
+                        <h2>Data Analysis With Python</h2>
+                    </div>
+                </div>
+                <hr class="sub-line">
+                <div class="certificate-3 certs">
+                    <div class="certificate-image">
+                        <img src="DataVisualization.png" alt="">
+                        <div class="certificate-overlay">
+                            <button><img src="share.png" alt=""><a
+                                    href="https://coursera.org/share/7adf9269fa5514a1ffadffdfd0c89d7f"
+                                    style="text-decoration: none; color: inherit;">Show</a></button>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="certificate-desc">
+                        <h2>Data Visualization</h2>
+                    </div>
+                </div>
+                <hr class="sub-line">
+                <div class="certificate-4 certs">
+                    <div class="certificate-image">
+                        <img src="WebDevelopment.png" alt="">
+                        <div class="certificate-overlay">
+                            <button><img src="share.png" alt=""><a
+                                    href="https://coursera.org/share/f6a47088c930e5a7a7c74a306d3c930f"
+                                    style="text-decoration: none; color: inherit;">Show</a></button>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="certificate-desc">
+                        <h2>Introduction to Web Development With HTML, CSS And Javascript</h2>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <hr>
+        <section class="sixthSection reveal" id="contact">
+            <div class="contact-title">
+                <h1>Contact Me</h1>
+                <img src="contact-us.png" alt="">
+            </div>
+            <div class="formContainer">
+                <form onsubmit="sendemail(); reset(); return false;">
+                    <h2>GET IN TOUCH</h2>
+                    <input type="hidden" name="contact_number">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                    <input type="email" id="email" placeholder="Your Email" required>
+                    <textarea id="message" rows="5" placeholder="Write a Message" required></textarea>
+                    <button class="btn btn1" type="submit">
+                        <p>Send</p>
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <div>
+        <button class="up">
+            <a href="#top">
+                <img src="up-arrow.png" alt="">
+            </a>
+        </button>
+    </div>
+    <footer>
+        <div class="leftFooter">
+            <nav class="socialmedia">
+                <a href="https://www.facebook.com/muneer.hussain.12345" target="_blank"><img src="facebook.png" alt=""
+                        class="fb sm"></a><span class="slash">/</span>
+                <a href="https://www.instagram.com/meem_se_muneer/" target="_blank"><img src="instagram.png" alt=""
+                        class="insta sm"></a><span class="slash">/</span>
+                <a href="https://www.linkedin.com/in/muneer-hussain-002931263/" target="_blank"><img src="linkedin.png"
+                        alt="" class="lin sm"></a><span class="slash">/</span>
+                <a href="https://github.com/MuneerHussain-Pydev" target="_blank"> <img src="github.png" alt=""
+                        class="git sm"></a>
+            </nav>
+        </div>
+        <div class="name-copyright"><span>M</span>uneer's <span>P</span>ortfolio</div>
+        <div class="copyright">&#169; All rights reserved to Muneer</div>
+    </footer>
+
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed1 = new Typed('#element1', {
+            strings: ['<i>Front-end Developer</i>.', '<i>Data Anlyst</i>.', '<i>Python Enthusiast</i>.'],
+            typeSpeed: 40,
+        });
+    </script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script> var typed2 = new Typed('#element2', {
+            strings: ['Hello, I\'m Muneer, a dedicated student currently pursuing a <i>Bachelors in Software Engineering</i> at NED University of Engineering and Technology. With a strong foundation in <b>Data Analysis, Python, SQL,</b> and more, I\'m on a continuous learning journey, eager to apply my skills in future endeavors. What sets me apart is my passion for Frontend Development, coupled with a keen interest in Data Analysis and Python programming. I\'m excited to bring creativity and analytical thinking to every project I undertake. Let\'s build something amazing together!.'],
+            typeSpeed: 5,
+        });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+        emailjs.init("4WA0lBIbZYcxBQ-o6");
+        function sendemail() {
+            console.log("Hello");
+            var params = {
+                to_name: "Muneer",
+                from_name: document.getElementById("name").value,
+                email: document.getElementById("email").value,
+                message: document.getElementById("message").value
+            }
+            emailjs.send("service_8p1gibp", "template_6b5b4c6", params).then(function (res) {
+                alert("Message send!", res);
+            }
+                ,
+                function (error) {
+                    console.log("Failed...", error);
+                });
+        }
+        // window.onload = function() {
+        //     document.getElementById('contact-form').addEventListener('submit', function(event) {
+        //         event.preventDefault();
+        //         // generate a five digit number for the contact_number variable
+        //         this.contact_number.value = Math.random() * 100000 | 0;
+        //         // these IDs from the previous steps
+        //         emailjs.sendForm('contact_service', 'contact_form', this)
+        //             .then(function() {
+        //                 console.log('SUCCESS!');
+        //             }, function(error) {
+        //                 console.log('FAILED...', error);
+        //             });
+        //     });
+        // }
+    </script>
+</body>
+
+</html>
